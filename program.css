@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+a:link {
+	font: 14x verdana, sans-serif;
+	text-decoration: underline; 
+	color: white;
+	}
+a:visited {
+	font: 14px verdana, sans-serif; 
+	text-decoration: underline; 
+	color: white;
+	}
+a:active {
+	font: 20px verdana, sans-serif;
+	text-decoration: underline;
+	color: black;
+	}
+a:hover {
+	font: 20px verdana, sans-serif;
+	text-decoration: none; 
+	color: black;
+	}
+	
+body {
+	margin: 0; 
+	padding: 0;
+	background-image: url('star.gif');
+	background-repeat: repeat;
+	}
+
+body {
+	font-size: 14px;
+	line-height: 18px;
+	font-family: verdana, sans-serif;
+	text-decoration: none;
+	color: #333333;
+	}
+	
+.logo {
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+}
+
+.faculty {
+	position: absolute;
+	left: 52px;
+	top: 684px;
+	opacity: 0.7;
+}
+
+.policy {
+	position: absolute;
+	left: 358px;
+	top: 791px;
+	opacity: 0.7;
+}
+
+.program {
+	position: absolute;
+	left: 878px;
+	top: 797px;
+	opacity: 0.9;
+}
+
+.curriculum {
+	position: absolute;
+	left: 816px;
+	top: 625px;
+	opacity: 0.9;
+}
